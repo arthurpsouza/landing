@@ -17,7 +17,7 @@ a:hover{
 
 .banner {
 	color: white;
-	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background2.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://tse1-mm.cn.bing.net/th/id/OIP.5cTIqNhGp7u0FDAZ9JugjAHaE4?w=267&h=180&c=7&o=5&dpr=1.5&pid=1.7);
 	background-size: cover;
  	background-position: center;
  	height: 260px;
