@@ -1,0 +1,141 @@
+/* Write some CSS below */
+
+h1, h2, h3, h4, h5, p {
+   font-family: verdana;
+   margin: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+
+a:hover{
+	background-color: #cd0000;
+}
+
+
+.banner {
+	color: white;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background2.jpg');
+	background-size: cover;
+ 	background-position: center;
+ 	height: 260px;
+ 	text-align: center;
+ 	padding: 70px;
+
+}
+
+.banner h1 {
+	font-size: 65px;
+	font-family: Helvetica;
+
+}
+
+.banner p {
+	font-size: 14px;
+}
+
+.button {
+	background-color: red;
+	color: white;
+	margin: 10px;
+	padding: 16px 48px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 15px;
+}
+
+.container {
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	vertical-align: center;
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.selection {
+	color: white;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  	grid-gap: 16px;
+  	}
+
+.card {
+	color: white;
+	background-color: #1a1a1a;
+	padding: 15px;
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 8px;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.card p {
+	font-size: 14px;
+	padding: 4px;
+}
+
+
+.card:hover {
+ 	/*background-color: #fafafa;*/
+ 	box-shadow: 0 0 60px rgba(100,100,100,0.1);
+
+}
+
+.footnote {
+	font-size: 12px;
+}
+
+.footer {
+	color: white;
+	background-color: #0a0a0a;
+	padding: 30px;
+	font-family: verdana;
+	height: 80px;
+	text-align: center;
+}
+
+
+
+/*media queries*/
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+
+ 
+@media (max-width: 800px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 800px) {
+	.banner {
+		height: 400px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 600px) {
+	.banner {
+		height: 450px;
+	}
+}
